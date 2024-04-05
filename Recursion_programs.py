@@ -2,8 +2,8 @@
 def sum(n):
     if (n<=1):
         return n
-    return n + sum(n - 1)
-# print(sum(5))
+    return n + sum(n - 1) 
+print(sum(5)) 
 
 # factorial of a number using while loop:
 # n=5
@@ -35,13 +35,13 @@ def factorial(n):
 #     i += 1
 
 # fibonocci using recursion :
-def fibonocci(n):
-    if n <= 1:
-        return n
-    return fibonocci(n-1) + fibonocci(n-2)
-n=5
-for i in range(n+1):
-    print(fibonocci(i),end=" ")
+# def fibonocci(n):
+#     if n <= 1:
+#         return n
+#     return fibonocci(n-1) + fibonocci(n-2)
+# n=5
+# for i in range(n+1):
+#     print(fibonocci(i),end=" ")
 
 
     
