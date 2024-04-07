@@ -25,4 +25,4 @@ des = Designer("Arun", "UI/UX Design")
 print(des.work())  
 
 man = Manager("Keerthi", "Project Management")
-print(man.work())     
+print(man.work())
